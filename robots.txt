@@ -1,0 +1,31 @@
+# ==========================================
+# AI Agent Notice Board - Robots.txt
+# ==========================================
+
+# 🤖 Target Major AI Crawlers & LLM Scrapers
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: Google-Extended
+User-agent: Anthropic-ai
+User-agent: Claude-Web
+User-agent: PerplexityBot
+User-agent: Cohere-ai
+User-agent: Applebot-Extended
+Allow: /
+
+# 🔍 Target Standard Search Engines (To feed RAG indexers)
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: Slurp
+User-agent: DuckDuckBot
+Allow: /
+
+# 🗂️ Global Fallback Strategy
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /tmp/
+
+# 🗺️ Direct bots to your content structure
+Sitemap: https://yourdomain.com
+
